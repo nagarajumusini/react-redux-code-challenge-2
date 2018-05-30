@@ -5,7 +5,7 @@ import { createStore } from 'redux';
 import { devToolsEnhancer } from 'redux-devtools-extension';
 import rootReducer from 'store/features/reducers'
 import './src/index.less';
-import App from 'components/App';
+import App from 'containers/App';
 
 /*
 As you can see, there's no middleware included here.
